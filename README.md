@@ -33,7 +33,7 @@ This repository provides a FastAPI-based RESTful API to predict machine downtime
 1. Clone the repository
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install fastapi[all] uvicorn pandas numpy scikit-learn
 ```
 3. Generate dataset:
 ```bash
